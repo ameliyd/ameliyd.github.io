@@ -1,8 +1,8 @@
 # Site settings 配置站点
-title: 'your awesome title'
+title: 'Ameliy'
 description: 'your web description'
 keywords: 'your web keywords, another keywords'
-url: 'https://abc.github.io' # your host
+url: 'https://ameliyd.github.io' # your host
 
 # nav 中文字符空格：&emsp;
 nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
@@ -14,31 +14,31 @@ nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
 
 # 博主
 author: true
-name: 'your awesome name'
-NickName: 'your awesome nickname'
-webtitle: 'your awesome webtitle'
-bio: 'your awesome bio'
+name: 'Ameliy'
+NickName: '米吖'
+webtitle: 'Ameliy'
+bio: 'yyyy'
 about: true
-aboutyou: 'your introduction'
+aboutyou: '技术美术修炼ing'
 portraits: '/assets/profile.jpeg' # your portraits image file path
 
 # SNS
 SNS: true
 SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
-  mail: 'mailto:abc@gmail.com'
+  mail: '1535126668@qq.com'
   weixin: '' # 你的微信二维码存放的地址
   qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
   github: ''
-  Codepen: ''
-  weibo: ''
-  instagram: ''
-  Twitter: ''
-  Dribbble: ''
-  Facebook: ''
-  Google: ''
+# Codepen: ''
+# weibo: ''
+# instagram: ''
+# Twitter: ''
+# Dribbble: ''
+# Facebook: ''
+# Google: ''
   zhihu: ''
-  juejin: ''
-  twitch: ''
+#  juejin: ''
+# twitch: ''
 
 # 分页
 paginate: 2
