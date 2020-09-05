@@ -1,0 +1,38 @@
+
+1. github.io.com能显示（建仓）
+
+2. copy模板；push；能正常显示；按照模板作者写的：gcc g++ -v没问题；make -v无命令：
+“如果你用MinGW，你的make 叫 mingw32-make” mingw32-make -v没问题；
+
+3. 安装ruby.exe.完成后，弹出cmd窗口，执行，安装了1选项；按照知乎，又装了3选项；
+
+4. 按照知乎执行顺序：命令gem install jekyll bundler 没问题
+	bundle install：提示错误，并执行gem install bundler:1.16.2 ok
+	再次bundle install：提示版本依赖：待解决：
+		D:\TAhhhh\TA\Blog_Jekyll\BLOG\ameliyd.github.io>bundle install
+Fetching gem metadata from https://rubygems.org/..........
+Fetching gem metadata from https://rubygems.org/.
+Resolving dependencies...
+Bundler could not find compatible versions for gem "ruby ":
+  In Gemfile:
+    ruby
+
+    jekyll-feed (~> 0.6) was resolved to 0.9.3, which depends on
+      jekyll (~> 3.3) was resolved to 3.8.1, which depends on
+        jekyll-watch (~> 2.0) was resolved to 2.0.0, which depends on
+          listen (~> 3.0) was resolved to 3.1.5, which depends on
+rb-inotify (~> 0.9, >= 0.9.7) was resolved to 0.9.10, which depends
+on
+              ffi (>= 0.5.0, < 2) was resolved to 1.9.23, which depends on
+                ruby  (< 2.6, >= 2.0) x64-mingw32
+
+Could not find gem 'ruby  (< 2.6, >= 2.0)', which is required by gem 'ffi (>=
+0.5.0, < 2)', in any of the relevant sources:
+  the local ruby installation
+
+Could not find gem 'tzinfo-data x64-mingw32' in any of the gem sources listed in your Gemfile.
+
+解决：
+	gem install name
+	ffi -v 安装错误，常见问题见https://github.com/ffi/ffi/issues/598
+	具体：执行gem install ffi -v ;还要加上bundle update
