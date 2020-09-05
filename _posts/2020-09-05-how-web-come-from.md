@@ -16,7 +16,7 @@ tags: Web
 ## 关于我
 中途转技术美术er；学习加油哇！  
 不管是个人网页还是其他，都是边学习边分享~（包括现在这篇也是test吼吼吼）  
-## 网页搭建过程
+## 搭建过程
 我的搭建拖了很久，不是很记得，也不是重点，简单记一下；  
 首先，查找资料；  
 ### 参考
@@ -27,4 +27,5 @@ tags: Web
 [Jekyll kramdown配置](https://developer.aliyun.com/article/25449)  
 ### 问题和解决
 1. 主要是参考文章安装几个包；可以自检；另外make版本不一样应该没问题；
-2. 遇到gem install一些版本依赖问题，也是Google解决；比如ffi安装错误，参考https://github.com/ffi/ffi/issues/598
+2. 遇到gem install一些版本依赖问题，也是Google解决；比如ffi安装错误，参考https://github.com/ffi/ffi/issues/598  
+  （另添加md目录，_config.yml添加use_coderay:true，提交导致编译失败；最终注释又能有目录，迷幻结果）

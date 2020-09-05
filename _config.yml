@@ -1,7 +1,7 @@
 # Site settings 配置站点
 title: 'Ameliy'
-description: 'your web description'
-keywords: 'your web keywords, another keywords'
+description: '学习分享'
+keywords: '图形学, unity, shader'
 url: 'https://ameliyd.github.io' # your host
 
 # nav 中文字符空格：&emsp;
@@ -17,10 +17,10 @@ author: true
 name: 'Ameliy'
 NickName: '米吖'
 webtitle: 'Ameliy'
-bio: 'yyyy'
+bio: ' '
 about: true
 aboutyou: '技术美术修炼ing'
-portraits: '/assets/profile.jpeg' # your portraits image file path
+portraits: '/assets/red_bean.jpg' # your portraits image file path
 
 # SNS
 SNS: true
